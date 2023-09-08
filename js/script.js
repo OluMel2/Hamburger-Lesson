@@ -6,7 +6,7 @@ $(function() {
     //.toggleClass()でclass属性を切り替える
     //.toggleClass()は、指定されているclass（ここではactive）をトグル処理するメソッド
     //aタグのclassにはmenu-triggerが指定され、activeは指定されていません。
-    //このときに.toggleClass()を設定すると、アイコンがクリックされたときにactiveクラスが追加され、もう一度クリックすると削除されます。
+    //このときに、.toggleClass()を設定すると、アイコンがクリックされたときにactiveクラスが追加され、もう一度クリックすると削除されます。
     //このように、.toggleClass()によって、class属性の追加と削除が交互に行われます。
     //さらに、.menu-trigger.active span:nth-child(1)～(3)の各CSSによって、activeクラスになったときにアイコンが「×」になるように設定されています。
     $('#sp-menu').fadeToggle();
